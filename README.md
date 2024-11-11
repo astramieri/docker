@@ -20,3 +20,19 @@ Note-taking repository for Docker.
 - Containers share the same OS kernel
 
 *Docker, which launched in 2013, initially utilized LXC to provide an easier way to create, deploy, and run applications using containers.  Docker quickly evolved from using LXC as its default execution environment by developing its own container runtime, ```libcontainer```, which now powers Docker containers.*
+
+## Sharing the Kernel
+
+You can't run a Windows based container on a Docker Host with Linux on it. You need Docker Host on Windows Server.
+
+**NOTE. When you install Docker on Windows and run a Linux container on Windows, Windows run a Linux container on a Linux virtual machine.**
+
+Unlike hypervisors, Docker is not meant to virtualize and run different operating systems and kernels on the same hardware. The main purpose of Docker is to package/containerize applications and to ship them to run anywhere.
+
+## Containers vs Virtual Machines
+
+![Containers VS Virtual Machines](./images/containers_vs_vms.png)
+
+
+
+
