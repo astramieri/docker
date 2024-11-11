@@ -37,7 +37,11 @@ Docker has less isolation as more resources are shared between the containers li
 
 ## Containers vs Images
 
-An image is a package (or a template) used to create one or more containers. Containers are running instances of images that are isolated and have their own environments and set or processes.
+An image is a package (or a template) used to create one or more containers. 
+
+Containers are running instances of images that are isolated and have their own environments and set or processes.
+
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
 
 
 
