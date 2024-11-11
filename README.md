@@ -31,7 +31,13 @@ Unlike hypervisors, Docker is not meant to virtualize and run different operatin
 
 ## Containers vs Virtual Machines
 
+Docker has less isolation as more resources are shared between the containers like kernel, whereas VMs have complete isolation from each other.
+
 ![Containers VS Virtual Machines](./images/containers_vs_vms.png)
+
+## Containers vs Images
+
+An image is a package (or a template) used to create one or more containers. Containers are running instances of images that are isolated and have their own environments and set or processes.
 
 
 
