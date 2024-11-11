@@ -43,6 +43,19 @@ Containers are running instances of images that are isolated and have their own 
 
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
 
+## Docker Editions
+
+Docker has two editions:
+- the Community Edition
+    - it is a set of free Docker products
+- the Enterprise Edition
+    - it is the certified and supported container platform
+
+The Docker CE is availale on Linux, Mac, Windows, and cloud platforms.
+
+If you are on Mac or Windows you have two options:
+- install a Linux VM using VirtualBox (or some kind of virtualization)
+- install Docker Desktop which is a native application 
 
 
 
