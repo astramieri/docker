@@ -21,7 +21,7 @@ Note-taking repository for Docker.
 
 *Docker, which launched in 2013, initially utilized LXC to provide an easier way to create, deploy, and run applications using containers.  Docker quickly evolved from using LXC as its default execution environment by developing its own container runtime, ```libcontainer```, which now powers Docker containers.*
 
-## Sharing the Kernel
+## Sharing the kernel
 
 You can't run a Windows based container on a Docker Host with Linux on it. You need Docker Host on Windows Server.
 
@@ -43,7 +43,7 @@ Containers are running instances of images that are isolated and have their own 
 
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
 
-## Docker Editions
+## Docker editions
 
 Docker has two editions:
 - the Community Edition
