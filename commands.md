@@ -16,6 +16,14 @@ In the case with Ubuntu image, you could instruct Docker to run a process with t
 
     > docker run ubuntu sleep 5      (exit after 5 seconds)
 
+When you run a container, it runs in the *foreground* or in **attached mode**, meaning you will be attached to the standard out of the Docker container. You won't be able to do anything else on this console other than view the output until this Docker container stops.
+
+Another option is to run the Docker container in the **detached mode**. This will run the Docker container in the *background* mode and you will be back to your prompt immediately. The container will continue to run in the backend. If you would like to attach back to the running container later, use the ```attach``` command.
+
+    > docker run <image>            (attached mode)
+
+    > docker run -d <image>         (detached mode)
+
 ## ```ps```
 
 This command is used to list all running containers with some basic information about them.
@@ -54,9 +62,14 @@ This command is used to download an image.
 
     > docker pull <image>
 
-
 ## ```exec```
 
 This command is used to execute a command on a Docker container.
 
     > docker exec <container> cat /etc/hosts
+
+## ```attach```
+
+This command is used to attach to a detached running container.
+
+    > docker attach <container>
