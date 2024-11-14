@@ -12,6 +12,12 @@ This command is used to list all available images and their sizes.
 
     > docker images
 
+## ```pull```
+
+This command is used to download an image.
+
+    > docker pull <image>
+
 ## ```run```
 
 This command is used to run a container from an image. Each container gets a random *ID* and *name*.
@@ -63,12 +69,6 @@ This command is used to remove a stopped or exited container permanently.
 This command is used to remove an image that you no longer plan to use. You must stop and delete all dependent containers to be able to delete an image.
 
     > docker rmi <image>
-
-## ```pull```
-
-This command is used to download an image.
-
-    > docker pull <image>
 
 ## ```exec```
 
