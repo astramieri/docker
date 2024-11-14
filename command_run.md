@@ -25,3 +25,17 @@ Another option is to run the Docker container in the **detached mode**. This wil
     > docker run <image>            (attached mode)
 
     > docker run -d <image>         (detached mode)
+
+## Inputs
+
+By default, the Docker container does not listen to a standard input. It runs in a non-interactive mode.
+
+The ```-i``` and ```-t``` options are commonly used together with the docker run command to allow interactive terminal access to a container.
+
+The ```-i``` (interactive) option keeps the standard input open, allowing you to send commands to the container even if you’re not actively attached to it. Without ```-i```, Docker would close the standard input when starting the container.
+
+The ```-t``` (pseudo-TTY) option allocates a pseudo-terminal, which gives you a shell-like experience. This is what allows the container to act as if you’re interacting with it from a typical command-line interface.
+
+When combined as ```-it```, they allow you to interact with the container in real time, which is useful for running shells or commands inside it.
+
+
