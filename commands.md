@@ -6,6 +6,12 @@ This command is used to print the current version number for all independently v
 
     > docker version
 
+## ```images```
+
+This command is used to list all available images and their sizes.
+
+    > docker images
+
 ## ```run```
 
 This command is used to run a container from an image. Each container gets a random *ID* and *name*.
@@ -30,6 +36,8 @@ Another option is to run the Docker container in the **detached mode**. This wil
 
     > docker run -d <image>         (detached mode)
 
+To stop a container, use ```CTRL-c```. This key sequence sends ```SIGKILL``` to the container.
+
 ## ```ps```
 
 This command is used to list all running containers with some basic information about them.
@@ -49,12 +57,6 @@ This command is used to stop a container. You must provide either the *container
 This command is used to remove a stopped or exited container permanently.
 
     > docker rm <container>
-
-## ```images```
-
-This command is used to list all available images and their sizes.
-
-    > docker images
 
 ## ```rmi```
 
