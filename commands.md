@@ -1,4 +1,10 @@
-# Docker Commands
+# Docker commands
+
+## ```version```
+
+This command is used to print the current version number for all independently versioned Docker components.
+
+    > docker version
 
 ## ```run```
 
